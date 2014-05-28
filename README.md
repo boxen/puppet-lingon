@@ -1,13 +1,13 @@
 # Lingon for Boxen
 
-[![Build Status](https://travis-ci.org/hakamadare/puppet-lingon.png?branch=master)](https://travis-ci.org/hakamadare/puppet-lingon)
+[![Build Status](https://travis-ci.org/boxen/puppet-lingon.svg?branch=master)](https://travis-ci.org/hakamadare/puppet-lingon)
 
 This Boxen module installs [Lingon](http://www.peterborgapps.com/lingon/).
 
 ## Usage
 
 ```puppet
-class { 'lingon': }
+include lingon
 ```
 
 ## Required Puppet Modules
